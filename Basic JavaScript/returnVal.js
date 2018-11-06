@@ -3,16 +3,19 @@ We can pass values into a function with arguments. You can use a return statemen
 
 Example
 
-function plusThree(num) {
+function plusThree(num)
+{
   return num + 3;
 }
+
 var answer = plusThree(5); // 8
 plusThree takes an argument for num and returns a value equal to num + 3.
 ***********************************************************************************************************************/
 
 
 // Example
-function minusSeven(num) {
+function minusSeven(num) 
+{
   return num - 7;
 }
 
@@ -21,7 +24,5 @@ function timesFive(a)
 {
   return a *5;
 }
-
-
 console.log(minusSeven(10));
 console.log (timesFive(10));
